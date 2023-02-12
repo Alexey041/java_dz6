@@ -12,7 +12,6 @@ public class dz6 {
 
         Set<Notebook> notebooks = new HashSet<>(List.of(notebook1, notebook2,
         notebook3, notebook4, notebook5, notebook6));
-        //System.out.println(sortedInt(notebooks, 2, 2, 8));
         System.out.println(sort(notebooks));
         
         
@@ -38,7 +37,6 @@ public class dz6 {
                             "4. ОС\n"+
                             "5. Цвет");
         int parametr = scannerInt();
-        System.out.println(parametr);
         if (parametr == 1 | parametr == 4 | parametr == 5) {
             System.out.println("Выберите тип сортировки:\n"+
                                 "1. Только искомое\n"+
